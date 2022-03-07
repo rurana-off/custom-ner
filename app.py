@@ -33,8 +33,6 @@ def process_text(doc, selected_entities, anonymize=False):
         return anonmized_tokens
 
     return tokens
-    
-
 
 
 models = load_models()
